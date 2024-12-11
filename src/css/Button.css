@@ -1,0 +1,51 @@
+
+.button {
+  font-size: 1.8rem;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #eaeaea;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #d1d1d1;
+}
+
+
+.number-button {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+
+.operator-button {
+  background-color: #ff9f00;
+  color: white;
+  width: 70px;
+  height: 70px;
+}
+
+.reset-button{
+  background-color: #ff9f00;
+  color: white;
+  width: 94px;
+  height: 70px;
+}
+
+
+.operator-button[data-reset='true'] {
+  background-color: #e53935;
+  color: white;
+}
+
+.operator-button[data-reset='true']:hover {
+  background-color: #d32f2f;
+}
